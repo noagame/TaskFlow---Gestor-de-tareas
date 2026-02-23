@@ -1,0 +1,49 @@
+Objetivo:
+
+El objetivo del proyecto es crear una aplicación web que permita gestionar
+tareas de manera eficiente. Implementando principios de programación orientada 
+a Objetos, manipulación de DOM, eventos, asincronía y consumo de APIs.
+
+* Crear, editar y eliminar tareas.
+* Utilizar eventos para mejorar la interactividad.
+* Manejar datos de manera asincrónica.
+* Integrar consumo de APIs para funcionalidades adicionales 
+(almacenamiento o sincronización de tareas).
+
+Requerimientos:
+
+* Implementar principios de orientación a objetos en JavaScript.
+* Usar sintaxis moderna de ES6+.
+* Manipular el DOM de manera eficiente.
+* Manejar eventos de usuario.
+* Implementar funciones asincrónicas para trabajar con datos externos.
+* Consumir una API para almacenamiento o funcionalidades extras.
+
+Paso a Paso:
+1.- orientación a Objetos en JavaScript
+- Crear una clase Tarea con propiedades como id, descripcion, estado y fechaCreacion
+- Implementar métodos para cambiar el estado de la tarea y eliminarla.
+- Crear una clase GestorTareas que administe una lista de tareas.
+
+2.- Características JavaScript ES6
+- Utilizar let y const en lugar de var.
+- Aplicar template literals para mejorar la legibilidad del código.
+- Usar arrow functions para mejorar la sintaxis de los métodos.
+- Implementar destructuring y spread/rest operators en la manipulación de datos.
+
+3.- manipulación del DOM
+- Crear un formulario HTML para agregar nuevas tareas.
+- Capturar eventos de submit y click para gestionar tareas.
+- Modificar el DOM dinámicamente para mostrar la lista de tareas.
+- Agregar eventos de mouseover y keyup para mejorar la interactividad.
+
+4.- JavaScript asíncrono.
+- Simular un retardo al agregar una tarea
+- Implementar una función que muestre una notificación tras 2 segundos.
+- Crear un contador regresivo para tareas con fecha límite.
+
+5.- Consumo de APIs con JavaScript
+- Usar fetch() para obtener datos de una API de tareas.
+- Almacenar y recuperar tareas desde localStrorage.
+- Crear una función que guarde tareas de una API y otra que la recupere.
+- Majerar errores en peticiones asíncronas con try/catch
