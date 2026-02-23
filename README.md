@@ -9,8 +9,6 @@ Estructura:
   /scripts
     script.js
 objetivo.txt
-explicacion_funcionamiento.txt
-informe.txt
 README.md
 ```
 
